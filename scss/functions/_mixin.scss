@@ -1,0 +1,15 @@
+/*Mixins*/
+@mixin buttons ($color){
+    width: 16rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: $color;
+    color: #fff;
+    border-radius: 25rem;
+    font-weight: 600;
+    cursor: pointer;   
+}
+
+.button-marketing{
+    @include buttons(#ff1000)
+}

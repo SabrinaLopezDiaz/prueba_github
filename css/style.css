@@ -1,0 +1,463 @@
+@charset "UTF-8";
+/*Import*/
+footer {
+  background-color: #78808e;
+  text-align: center;
+}
+footer li {
+  display: inline-block;
+}
+
+.maps {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu:hover .dropdown-menu, .dropdown-submenu:focus .dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute !important;
+  margin-top: -30px;
+  left: 100%;
+}
+
+@media (max-width: 992px) {
+  .dropdown-menu {
+    width: 50%;
+  }
+}
+.dropdown-menu .dropdown-submenu {
+  width: auto;
+}
+
+/*Variables*/
+/*Mixins*/
+.button-marketing {
+  width: 16rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #ff1000;
+  color: #fff;
+  border-radius: 25rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.section-container {
+  background-color: #78808e;
+}
+
+/*cosas nuevas*/
+/*Margenes y Relleno*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Tamaño base*/
+html {
+  font-size: 18px;
+  position: relative;
+  min-height: 100%;
+}
+
+/*Fuente de Fonts Google*/
+body {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+/*Cascada*/
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*Logo*/
+.mi-logo {
+  background-color: burlywood;
+}
+
+/*Carousel*/
+.carousel-title {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.carousel-title2 {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.weare {
+  border: none;
+}
+
+/*Sección header del Home*/
+#Home {
+  position: fixed;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Home ul li {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+ul ul li {
+  display: block;
+}
+
+/*Fin sección header del Home*/
+/*Clases*/
+.mi-clase {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.mi-clase3 {
+  text-align: center;
+}
+
+.mi-clase4 {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.mi-clase6 {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.mi-clase7 {
+  width: 110%;
+  height: 90px;
+  object-fit: contain;
+  object-position: 45% 50%;
+}
+
+.paragraph3 {
+  color: #993d3d;
+  font-size: 1rem;
+}
+
+.encabezado {
+  transform: translateX(2px);
+}
+
+h4 {
+  padding: 10px;
+  border: 1px solid #524f4f;
+  margin: 10px;
+}
+
+h5 {
+  padding: 10px;
+  border: 1px solid #524f4f;
+  margin: 10px;
+}
+
+.container-bottom {
+  position: fixed;
+  z-index: 100;
+  bottom: 2%;
+  right: 5%;
+}
+
+.whatsapp {
+  position: fixed;
+  color: #25ee25;
+  z-index: 100;
+  width: 60px;
+  bottom: 40px;
+  right: 40px;
+}
+
+/*Sección cursos y programas*/
+.section-cursos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: center;
+  color: #ff1000;
+  border: none;
+}
+
+/*Marketing*/
+.section-marketing {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #78808e;
+}
+
+.marketing {
+  color: black;
+  display: flex;
+  justify-content: center;
+  background-color: #78808e;
+}
+
+.mar {
+  color: black;
+  display: flex;
+  justify-content: center;
+  background-color: #78808e;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  justify-content: middle;
+}
+
+/*Analitycs*/
+.section-analitycs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #78808e;
+}
+
+.analitycs {
+  color: black;
+  display: flex;
+  justify-content: center;
+  background-color: #78808e;
+}
+
+.ana {
+  color: black;
+  display: flex;
+  justify-content: center;
+  background-color: #78808e;
+}
+
+.button-marketing:hover {
+  transform: scale(1.5);
+  transition: all 3s ease-out;
+}
+
+/*Sección equipo*/
+.section-container {
+  color: whitesmoke;
+  background-color: #78808e;
+  display: flex;
+  align-items: center;
+}
+
+.equipo {
+  width: 700px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.equipo-2:hover {
+  transform: scale(1.5);
+  transition: all 3s ease-out;
+}
+
+/*Seccion colegios*/
+.titulo {
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: #78808e;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.texto {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+  flex-direction: column;
+}
+
+.sub {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+}
+
+.ministerio {
+  display: flex;
+  justify-content: center;
+  color: #ff1000;
+  border: none;
+}
+
+.instituciones {
+  width: 20%;
+  height: 20%;
+  margin-top: 25px;
+  padding-left: 80px;
+}
+
+.inst {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+}
+
+.title-school {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #ff1000;
+  border: none;
+}
+
+/*Sección empresas*/
+.cards-business {
+  margin: 11;
+  padding: 10px 0 10px 12px;
+  font-size: 16px;
+}
+
+.square0, .square1, .square2, .square3, .square4 {
+  margin: 11;
+  padding: 10px 0 10px 12px;
+  font-size: 16px;
+  border: solid 1px #281e49;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.banner-business {
+  display: block;
+  background-color: #78808e;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px -5px 8px #000;
+  align-items: center;
+}
+
+.clientes {
+  width: 15%;
+  height: 15%;
+  margin-top: 25px;
+  padding-left: 80px;
+}
+
+.client {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+}
+
+.title-client {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #ff1000;
+  border: none;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #242222;
+  }
+}
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E;
+  }
+}
+/*Desktop*/
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #FFF;
+  }
+}
+/*Formulario*/
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.form-row input[type=text], [type=email] {
+  background-color: #fff;
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.form-row label {
+  margin-bottom: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

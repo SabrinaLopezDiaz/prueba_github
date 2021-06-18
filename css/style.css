@@ -48,111 +48,6 @@ footer li {
   cursor: pointer;
 }
 
-.section-container {
-  background-color: #78808e;
-}
-
-/*cosas nuevas*/
-/*Margenes y Relleno*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/*Tamaño base*/
-html {
-  font-size: 18px;
-  position: relative;
-  min-height: 100%;
-}
-
-/*Fuente de Fonts Google*/
-body {
-  font-family: "Encode Sans Expanded", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0em;
-}
-
-/*Cascada*/
-header nav ul li a {
-  color: black;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-/*Logo*/
-.mi-logo {
-  background-color: burlywood;
-}
-
-/*Carousel*/
-.carousel-title {
-  top: 50%;
-  transform: translateY(-50%);
-  bottom: initial;
-}
-
-.carousel-title2 {
-  top: 50%;
-  transform: translateY(-50%);
-  bottom: initial;
-}
-
-.weare {
-  border: none;
-}
-
-/*Sección header del Home*/
-#Home {
-  position: fixed;
-  z-index: 100;
-  margin: 0;
-  padding: 0;
-  height: 75px;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-}
-
-.navbar {
-  z-index: 100;
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#Home ul li {
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: bold;
-  margin-right: 10px;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  position: relative;
-  font-size: 14px;
-}
-
-ul ul {
-  position: absolute;
-  display: none;
-}
-
-ul ul li {
-  display: block;
-}
-
-/*Fin sección header del Home*/
 /*Clases*/
 .mi-clase {
   color: whitesmoke;
@@ -219,6 +114,66 @@ h5 {
   width: 60px;
   bottom: 40px;
   right: 40px;
+}
+
+/*Seccion colegios*/
+.titulo {
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: #78808e;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.texto {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+  flex-direction: column;
+}
+
+.sub {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+}
+
+.ministerio {
+  display: flex;
+  justify-content: center;
+  color: #ff1000;
+  border: none;
+}
+
+.instituciones {
+  width: 20%;
+  height: 20%;
+  margin-top: 25px;
+  padding-left: 80px;
+}
+
+.inst {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+}
+
+.title-school {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #ff1000;
+  border: none;
 }
 
 /*Sección cursos y programas*/
@@ -310,66 +265,6 @@ h5 {
   transition: all 3s ease-out;
 }
 
-/*Seccion colegios*/
-.titulo {
-  font-weight: bold;
-  color: white;
-  display: flex;
-  justify-content: center;
-  background-color: #78808e;
-}
-
-.section-container {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-.texto {
-  width: 40%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: space-around;
-  flex-direction: column;
-}
-
-.sub {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  justify-content: center;
-}
-
-.ministerio {
-  display: flex;
-  justify-content: center;
-  color: #ff1000;
-  border: none;
-}
-
-.instituciones {
-  width: 20%;
-  height: 20%;
-  margin-top: 25px;
-  padding-left: 80px;
-}
-
-.inst {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  justify-content: center;
-}
-
-.title-school {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  color: #ff1000;
-  border: none;
-}
-
 /*Sección empresas*/
 .cards-business {
   margin: 11;
@@ -419,24 +314,6 @@ h5 {
   border: none;
 }
 
-/*Mobile*/
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: #242222;
-  }
-}
-/*Tablet*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: #F5CF8E;
-  }
-}
-/*Desktop*/
-@media only screen and (min-width: 961px) {
-  body {
-    background-color: #FFF;
-  }
-}
 /*Formulario*/
 .form-row {
   margin-bottom: 40px;
@@ -458,6 +335,129 @@ h5 {
 
 .form-row label {
   margin-bottom: 16px;
+}
+
+/*Sección header del Home*/
+#Home {
+  position: fixed;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Home ul li {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+ul ul li {
+  display: block;
+}
+
+/*Fin sección header del Home*/
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #242222;
+  }
+}
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E;
+  }
+}
+/*Desktop*/
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #FFF;
+  }
+}
+.section-container {
+  background-color: #78808e;
+}
+
+/*cosas nuevas*/
+/*Margenes y Relleno*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Tamaño base*/
+html {
+  font-size: 18px;
+  position: relative;
+  min-height: 100%;
+}
+
+/*Fuente de Fonts Google*/
+body {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+/*Cascada*/
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*Logo*/
+.mi-logo {
+  background-color: burlywood;
+}
+
+/*Carousel*/
+.carousel-title {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.carousel-title2 {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.weare {
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+/*Seccion colegios*/
+.titulo{
+    font-weight: bold;
+    color:white;
+    display: flex;
+    justify-content: center;
+    background-color: #78808e;
+}
+.section-container{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+}
+.texto{
+    width: 40%; 
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    align-content: space-around;
+    flex-direction: column;
+}
+.sub{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+}
+.ministerio{
+    display: flex;
+    justify-content: center;
+    color: #ff1000;
+    border: none;
+}
+.instituciones{
+    width: 20%;
+    height: 20%;
+    margin-top: 25px;
+    padding-left: 80px;
+}
+.inst{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+}
+.title-school{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #ff1000;
+    border: none;
+}

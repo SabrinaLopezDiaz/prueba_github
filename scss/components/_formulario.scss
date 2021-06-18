@@ -1,0 +1,20 @@
+/*Formulario*/
+.form-row{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.form-row input[type="text"], [type="email"]{
+    background-color: #fff;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.form-row label{
+    margin-bottom: 16px;
+}

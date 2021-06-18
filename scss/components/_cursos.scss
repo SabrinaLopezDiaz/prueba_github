@@ -1,0 +1,61 @@
+/*Sección cursos y programas*/
+.section-cursos{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+}
+.encabezado{
+    display: flex;
+    justify-content: center;
+    color:#ff1000;
+    border: none;
+}
+/*Marketing*/
+.section-marketing{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    background-color: #78808e;
+}
+.marketing{
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: #78808e;
+}
+.mar{
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: #78808e;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    justify-content: middle;
+}
+/*Analitycs*/
+.section-analitycs{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    background-color: #78808e;
+}
+.analitycs{
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: #78808e;
+}
+.ana{
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: #78808e;
+
+}
+.button-marketing:hover{
+    transform: scale(1.5);
+    transition: all 3s ease-out;
+}

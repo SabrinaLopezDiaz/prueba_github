@@ -1,18 +1,12 @@
 @charset "UTF-8";
 /*Import*/
 footer {
-  background-color: #78808e;
+  background-color: black;
   text-align: center;
+  padding: 20px;
 }
 footer li {
   display: inline-block;
-}
-
-.maps {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 6%;
-  margin-right: 6%;
 }
 
 .dropdown-submenu {
@@ -46,16 +40,25 @@ footer li {
   border-radius: 25rem;
   font-weight: 600;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.button-cursos {
+  width: 14rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #ff1000;
+  color: #fff;
+  border-radius: 25rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /*Clases*/
 .mi-clase {
   color: whitesmoke;
   font-weight: bold;
-}
-
-.mi-clase3 {
-  text-align: center;
 }
 
 .mi-clase4 {
@@ -65,23 +68,11 @@ footer li {
   object-position: 50% 50%;
 }
 
-.mi-clase6 {
-  width: 100%;
-  height: 450px;
-  object-fit: cover;
-  object-position: 50% 50%;
-}
-
 .mi-clase7 {
-  width: 110%;
+  width: 100%;
   height: 90px;
   object-fit: contain;
   object-position: 45% 50%;
-}
-
-.paragraph3 {
-  color: #993d3d;
-  font-size: 1rem;
 }
 
 .encabezado {
@@ -114,6 +105,34 @@ h5 {
   width: 60px;
   bottom: 40px;
   right: 40px;
+  font-size: 30px;
+}
+
+.video-empresas, .video-index {
+  height: 350px;
+  margin-top: 30px;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  background-color: silver;
+  padding-bottom: 10px;
+}
+
+.digital {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+  background-color: silver;
+}
+
+.digital1 {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 5px;
+  background-color: silver;
+  font-weight: bold;
 }
 
 /*Seccion colegios*/
@@ -123,12 +142,6 @@ h5 {
   display: flex;
   justify-content: center;
   background-color: #78808e;
-}
-
-.section-container {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
 }
 
 .texto {
@@ -145,6 +158,7 @@ h5 {
   display: flex;
   justify-content: flex-start;
   justify-content: center;
+  padding: 40px;
 }
 
 .ministerio {
@@ -164,16 +178,20 @@ h5 {
 .inst {
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
 .title-school {
-  width: 100%;
+  width: 98%;
   display: flex;
   justify-content: center;
   color: #ff1000;
   border: none;
+}
+
+.programas {
+  background-color: silver;
 }
 
 /*Sección cursos y programas*/
@@ -181,6 +199,8 @@ h5 {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  background-color: silver;
+  padding: 70px;
 }
 
 .encabezado {
@@ -188,27 +208,41 @@ h5 {
   justify-content: center;
   color: #ff1000;
   border: none;
+  font-weight: bold;
+  width: 99%;
 }
 
-/*Marketing*/
+/*Marketing y el resto de cursos*/
 .section-marketing {
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-color: #78808e;
+  padding: 3%;
 }
 
 .marketing {
-  color: black;
+  color: #fff;
+  font-weight: bold;
+  line-height: 0.25;
+  font-size: 190%;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 9%;
   background-color: #78808e;
 }
 
 .mar {
-  color: black;
+  color: #fff;
+  font-weight: bold;
+  line-height: 0.25em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 9%;
   background-color: #78808e;
 }
 
@@ -216,30 +250,59 @@ h5 {
   display: flex;
   justify-content: center;
   justify-content: middle;
+  padding: 20px;
+}
+
+.projects-marketing {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+  background-color: silver;
+}
+
+.projects-marketing2 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 1%;
+}
+
+.platform-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+  background-color: gray;
+}
+
+.platform-container2 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 1%;
+  width: 100%;
+}
+
+.projects {
+  background-color: silver;
+}
+
+.projects2 {
+  background-color: gray;
+}
+
+.projects-title {
+  display: block;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px -5px 8px #000;
+  align-items: center;
 }
 
 /*Analitycs*/
-.section-analitycs {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #78808e;
-}
-
-.analitycs {
-  color: black;
-  display: flex;
-  justify-content: center;
-  background-color: #78808e;
-}
-
-.ana {
-  color: black;
-  display: flex;
-  justify-content: center;
-  background-color: #78808e;
-}
-
 .button-marketing:hover {
   transform: scale(1.5);
   transition: all 3s ease-out;
@@ -251,18 +314,8 @@ h5 {
   background-color: #78808e;
   display: flex;
   align-items: center;
-}
-
-.equipo {
-  width: 700px;
-  height: 300px;
-  display: flex;
-  align-items: center;
-}
-
-.equipo-2:hover {
-  transform: scale(1.5);
-  transition: all 3s ease-out;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 /*Sección empresas*/
@@ -270,15 +323,19 @@ h5 {
   margin: 11;
   padding: 10px 0 10px 12px;
   font-size: 16px;
+  background-color: #78808e;
 }
 
 .square0, .square1, .square2, .square3, .square4 {
-  margin: 11;
+  margin-left: 23%;
+  width: 50%;
   padding: 10px 0 10px 12px;
   font-size: 16px;
-  border: solid 1px #281e49;
+  border: solid 1px #ff1000;
   border-radius: 5px;
   overflow: hidden;
+  background-color: #fff;
+  display: inline-block;
 }
 
 .banner-business {
@@ -296,22 +353,84 @@ h5 {
   width: 15%;
   height: 15%;
   margin-top: 25px;
-  padding-left: 80px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .client {
   width: 100%;
   display: flex;
-  justify-content: flex-start;
   justify-content: center;
+  align-items: center;
 }
 
 .title-client {
-  width: 100%;
+  width: 99%;
   display: flex;
   justify-content: center;
   color: #ff1000;
   border: none;
+}
+
+.talent-content {
+  display: flex;
+  justify-content: center;
+  background-color: silver;
+  padding: 25px;
+}
+
+.benefit-content {
+  text-align: center;
+  background-color: silver;
+}
+
+.talent-content2 {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+  background-color: silver;
+}
+
+.benefit-content2 {
+  background-color: slategrey;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.benefit-content3 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: silver;
+  padding: 20px;
+  align-items: center;
+}
+
+.consulta-empresas {
+  max-width: 265px;
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  border: solid 1px #281e49;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.consulta-empresas {
+  cursor: pointer;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  justify-content: middle;
+  margin-top: 50px;
+}
+
+.talent-work {
+  padding: 30px;
 }
 
 /*Formulario*/
@@ -321,6 +440,7 @@ h5 {
   justify-content: flex-start;
   flex-wrap: wrap;
   flex-direction: column;
+  margin-left: -15%;
 }
 
 .form-row input[type=text], [type=email] {
@@ -329,12 +449,39 @@ h5 {
   border-radius: 4px;
   padding: 8px;
   font-size: 14px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 0%;
+  margin-right: -20%;
 }
 
 .form-row label {
   margin-bottom: 16px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: space-between;
+  height: 450px;
+}
+
+.weare {
+  border: none;
+  font-size: 35px;
+}
+
+.formulario-title {
+  background-color: grey;
+  padding: 100px;
+  margin-left: 0%;
+  width: 50%;
+}
+
+.formulario-title2 {
+  background-color: silver;
+  margin-right: 0%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Sección header del Home*/
@@ -344,7 +491,7 @@ h5 {
   margin: 0;
   padding: 0;
   height: 75px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -353,7 +500,7 @@ h5 {
   z-index: 100;
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -390,14 +537,143 @@ ul ul li {
 /*Fin sección header del Home*/
 /*Mobile*/
 @media only screen and (max-width: 400px) {
-  body {
-    background-color: #242222;
+  .button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .talent-content2, .projects-marketing, .platform-container {
+    display: block;
+  }
+
+  .button-cursos {
+    margin-top: 20px;
+  }
+
+  .section-cursos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .sub {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .texto {
+    border: none;
+    width: 400px;
+  }
+
+  .section-container {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+  }
+
+  #colegios, #empresas {
+    display: none;
+  }
+
+  .videos, .digital, .digital1, .benefit-figure {
+    display: none;
+  }
+
+  .formulario {
+    display: block;
+    height: 100%;
+  }
+
+  .formulario-title {
+    display: none;
+  }
+
+  .formulario-title2 {
+    width: 100%;
+  }
+
+  .form-row {
+    margin-left: 0%;
+    width: 80%;
+  }
+
+  #equipo {
+    height: 100%;
+    width: 0%;
+  }
+
+  .benefit-content2 {
+    margin-top: 5px;
+  }
+
+  .button1 {
+    margin-bottom: 5px;
+  }
+
+  .mar, .marketing {
+    line-height: 100%;
+  }
+
+  .platform-container {
+    padding-top: 0px;
+  }
+
+  .platform-figure {
+    width: 100%;
+  }
+
+  .whatsapp {
+    width: 35%;
+    bottom: 1%;
+    right: 7%;
+    font-size: 25px;
+  }
+
+  .section-container2 {
+    display: block;
+  }
+
+  #equipo {
+    display: none;
   }
 }
 /*Tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: #F5CF8E;
+  .button {
+    display: block;
+    text-align: center;
+  }
+
+  .talent-content2, .projects-marketing {
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .benefit-content2 {
+    margin-bottom: 15px;
+  }
+
+  .benefit-figure {
+    width: 90%;
+  }
+
+  .clientes {
+    width: 20%;
+  }
+
+  .instituciones {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+
+  .mar, .marketing {
+    line-height: 100%;
   }
 }
 /*Desktop*/
@@ -406,11 +682,194 @@ ul ul li {
     background-color: #FFF;
   }
 }
+/*Equipo*/
+#equipo {
+  width: 750px;
+  height: 300px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.equipo-2:hover {
+  transform: scale(1.5);
+  transition: all 3s ease-out;
+}
+
+.section-container2 {
+  color: whitesmoke;
+  background-color: #78808e;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.equipo-sabrina, .equipo-nicolas, .equipo-florencia {
+  padding: 27px;
+}
+
+.team {
+  font-size: 19px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Timeline*/
+.r-title {
+  margin-top: var(--rTitleMarginTop, 0) !important;
+  margin-bottom: var(--rTitleMarginBottom, 0) !important;
+}
+
+p:not([class]) {
+  line-height: var(--cssTypographyLineHeight, 1.78);
+  margin-top: var(--cssTypographyBasicMargin, 1em);
+  margin-bottom: 0;
+}
+
+p:not([class]):first-child {
+  margin-top: 0;
+}
+
+.text {
+  display: var(--textDisplay, inline-flex);
+  font-size: var(--textFontSize, 1rem);
+}
+
+.time {
+  display: var(--timeDisplay, inline-flex);
+}
+
+.time__month {
+  margin-left: var(--timelineMounthMarginLeft, 0.25em);
+}
+
+.time {
+  padding: var(--timePadding, 0.25rem 1.25rem 0.25rem);
+  background-color: var(--timeBackgroundColor, #f0f0f0);
+  font-size: var(--timeFontSize, 0.75rem);
+  font-weight: var(--timeFontWeight, 700);
+  text-transform: var(--timeTextTransform, uppercase);
+  color: var(--timeColor, currentColor);
+}
+
+.card {
+  padding: var(--timelineCardPadding, 1.5rem 1.5rem 1.25rem);
+}
+
+.card__content {
+  margin-top: var(--cardContentMarginTop, 0.5rem);
+}
+
+.card {
+  border-radius: var(--timelineCardBorderRadius, 2px);
+  border-left: var(--timelineCardBorderLeftWidth, 3px) solid var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
+  box-shadow: var(--timelineCardBoxShadow, 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24));
+  background-color: var(--timelineCardBackgroundColor, #fff);
+}
+
+.card__title {
+  --rTitleMarginTop: var(--cardTitleMarginTop, 1rem);
+  font-size: var(--cardTitleFontSize, 1.25rem);
+}
+
+.timeline {
+  display: var(--timelineDisplay, grid);
+  grid-row-gap: var(--timelineGroupsGap, 2rem);
+}
+
+.timeline__year {
+  margin-bottom: 1.25rem;
+  /* 1 */
+}
+
+.timeline__cards {
+  display: var(--timeloneCardsDisplay, grid);
+  grid-row-gap: var(--timeloneCardsGap, 1.5rem);
+}
+
+.timeline {
+  --uiTimelineMainColor: var(--timelineMainColor, #222);
+  --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
+  border-left: var(--timelineLineWidth, 3px) solid var(--timelineLineBackgroundColor, var(--uiTimelineMainColor));
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.timeline__year {
+  --timePadding: var(--timelineYearPadding, .5rem 1.5rem);
+  --timeColor: var(--uiTimelineSecondaryColor);
+  --timeBackgroundColor: var(--uiTimelineMainColor);
+  --timeFontWeight: var(--timelineYearFontWeight, 400);
+}
+
+.timeline__card {
+  position: relative;
+  margin-left: var(--timelineCardLineGap, 1rem);
+}
+
+.timeline__cards {
+  overflow: hidden;
+  padding-top: 0.25rem;
+  /* 1 */
+  padding-bottom: 0.25rem;
+  /* 1 */
+}
+
+.timeline__card::before {
+  content: "";
+  width: 100%;
+  height: var(--timelineCardLineWidth, 2px);
+  background-color: var(--timelineCardLineBackgroundColor, var(--uiTimelineMainColor));
+  position: absolute;
+  top: var(--timelineCardLineTop, 1rem);
+  left: -50%;
+  z-index: -1;
+}
+
+.timeline {
+  --timelineMainColor: #ff1000;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+  color: #222;
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.page {
+  max-width: 47rem;
+  padding: 5rem 2rem 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.encabezado-timeline {
+  display: flex;
+  justify-content: center;
+  color: #ff1000;
+  border: none;
+  font-weight: bold;
+  margin-top: 3%;
+}
+
 .section-container {
   background-color: #78808e;
 }
 
-/*cosas nuevas*/
 /*Margenes y Relleno*/
 * {
   margin: 0;
@@ -438,11 +897,6 @@ header nav ul li a {
   font-size: 18px;
 }
 
-/*Logo*/
-.mi-logo {
-  background-color: burlywood;
-}
-
 /*Carousel*/
 .carousel-title {
   top: 50%;
@@ -454,10 +908,6 @@ header nav ul li a {
   top: 50%;
   transform: translateY(-50%);
   bottom: initial;
-}
-
-.weare {
-  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,13 +1,116 @@
 /*Mobile*/
 @media only screen and (max-width:400px){
-    body{
-        background-color: #242222;
+    .button{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .talent-content2, .projects-marketing, .platform-container{
+        display: block;
+    }
+    .button-cursos{
+        margin-top: 20px;
+    }
+    .section-cursos{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .sub{
+        display: flex;
+        flex-direction:column;
+        width: 400px;
+        text-align: center;
+        padding:0px;
+    }
+    .texto{
+        border: none;
+        width: 400px;
+
+    }
+    .section-container{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+    }
+    #colegios, #empresas{
+        display: none;
+    }
+    .videos, .digital, .digital1, .benefit-figure{
+        display: none;
+    }
+    .formulario{
+        display: block;
+        height: 100%;
+    }
+    .formulario-title{
+        display: none;
+    }
+    .formulario-title2{
+        width: 100%;
+    }
+    .form-row{
+        margin-left: 0%;
+        width: 80%;
+    }
+    #equipo{
+        height: 100%;
+        width: 0%;
+    }
+    .benefit-content2{
+        margin-top: 5px;
+    }
+    .button1{
+        margin-bottom: 5px;
+    }
+    .mar, .marketing{
+        line-height: 100%;
+    }
+    .platform-container{
+        padding-top: 0px;
+    }
+    .platform-figure{
+        width: 100%;
+    }
+    .whatsapp{
+        width:35%;
+        bottom:1%;
+        right:7%;
+        font-size: 25px;
+    }
+    .section-container2{
+        display: block;
+    }
+    #equipo{
+        display: none;
     }
 }
 /*Tablet*/
 @media only screen and (min-width:401px) and (max-width:960px){
-    body{
-        background-color: #F5CF8E
+    .button{
+        display: block;
+        text-align: center;
+    }
+    .talent-content2, .projects-marketing{
+        display: block;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .benefit-content2{
+        margin-bottom: 15px;
+    }
+    .benefit-figure{
+        width: 90%;
+    }
+    .clientes{
+        width: 20%;
+    }
+    .instituciones{
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    .mar, .marketing{
+        line-height: 100%;
     }
 }
 /*Desktop*/

@@ -7,9 +7,28 @@
     color: #fff;
     border-radius: 25rem;
     font-weight: 600;
-    cursor: pointer;   
+    cursor: pointer;
+    text-decoration: none;   
+}
+
+@mixin buttons2 ($color){
+    width: 14rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: $color;
+    color: #fff;
+    border-radius: 25rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;   
 }
 
 .button-marketing{
     @include buttons(#ff1000)
 }
+
+.button-cursos{
+    @include buttons2(#ff1000)
+}
+
+

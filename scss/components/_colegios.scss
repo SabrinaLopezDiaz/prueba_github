@@ -6,11 +6,7 @@
     justify-content: center;
     background-color: #78808e;
 }
-.section-container{
-    display:flex;
-    justify-content: space-between;
-    flex-direction:column;
-}
+
 .texto{
     width: 40%; 
     display: flex;
@@ -24,12 +20,14 @@
     display: flex;
     justify-content: flex-start;
     justify-content: center;
+    padding: 40px;
 }
 .ministerio{
     display: flex;
     justify-content: center;
     color: #ff1000;
     border: none;
+    
 }
 .instituciones{
     width: 20%;
@@ -40,13 +38,16 @@
 .inst{
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
     justify-content: center;
 }
 .title-school{
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content: center;
     color: #ff1000;
     border: none;
+}
+.programas{
+    background-color: silver;
 }

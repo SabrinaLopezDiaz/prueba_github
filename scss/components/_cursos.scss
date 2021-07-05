@@ -3,58 +3,97 @@
     display:flex;
     justify-content: space-between;
     flex-direction:column;
+    background-color: silver;
+    padding: 70px;
 }
 .encabezado{
     display: flex;
     justify-content: center;
     color:#ff1000;
     border: none;
+    font-weight: bold;
+    width: 99%;
 }
-/*Marketing*/
+/*Marketing y el resto de cursos*/
 .section-marketing{
     display:flex;
     justify-content:center;
     flex-direction:column;
     background-color: #78808e;
+    padding: 3%;
 }
 .marketing{
-    color: black;
+    color: #fff;
+    font-weight: bold;
+    line-height: 0.25;
+    font-size: 190%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 9%;
     background-color: #78808e;
 }
 .mar{
-    color: black;
+    color: #fff;
+    font-weight: bold;
+    line-height: 0.25em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 9%;
     background-color: #78808e;
-
 }
 .button{
     display: flex;
     justify-content: center;
     justify-content: middle;
+    padding: 20px;
+}
+.projects-marketing{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+    background-color: silver;
+}
+.projects-marketing2{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 1%;
+}
+.platform-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+}
+.platform-container2{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 1%;
+    width: 100%;
+}
+.projects{
+    background-color: silver; 
+}
+.projects2{
+    background-color: gray;
+}
+.projects-title{
+    display: block;
+    color:#fff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 4px -5px 8px #000;
+    align-items: center;
 }
 /*Analitycs*/
-.section-analitycs{
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-    background-color: #78808e;
-}
-.analitycs{
-    color: black;
-    display: flex;
-    justify-content: center;
-    background-color: #78808e;
-}
-.ana{
-    color: black;
-    display: flex;
-    justify-content: center;
-    background-color: #78808e;
-
-}
 .button-marketing:hover{
     transform: scale(1.5);
     transition: all 3s ease-out;

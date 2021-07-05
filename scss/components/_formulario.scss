@@ -5,6 +5,7 @@
     justify-content:flex-start;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-left: -15%;
 }
 .form-row input[type="text"], [type="email"]{
     background-color: #fff;
@@ -12,9 +13,32 @@
     border-radius: 4px;
     padding: 8px;
     font-size: 14px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0%;
+    margin-right: -20%;
 }
 .form-row label{
     margin-bottom: 16px;
+}
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+.weare{
+    border: none;
+    font-size: 35px;
+}
+.formulario-title{
+    background-color: grey;
+    padding: 100px;
+    margin-left: 0%;
+    width: 50%;
+}
+.formulario-title2{
+    background-color: silver;
+    margin-right: 0%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
